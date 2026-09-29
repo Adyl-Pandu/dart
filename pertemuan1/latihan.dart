@@ -16,7 +16,7 @@ void main() {
   // menampilkan variabel dalam teks
   print('beli barang $barangToko dengan harga $harga');
 
-  // === 2. Nullable & Null Safety ===
+  // Nullable & Null Safety 
 
   String? alamat = 'Jl. Merdeka No. 10';
   print(alamat);
@@ -28,7 +28,7 @@ void main() {
   String hasilAlamat = alamat ?? 'Alamat belum diisi';
   print(hasilAlamat);
 
-  // === 3. final vs const ===
+  // final vs const 
 
   final waktuSekarang = DateTime.now(); // OK, baru diketahui saat program jalan
   const namaToko = 'Toko Leptop';         // OK, nilainya sudah pasti
@@ -36,14 +36,14 @@ void main() {
   print(waktuSekarang);
   print(namaToko);
 
-  // === 4. late modifier ===
+  // late modifier 
 
   late String namaPelangan;
 
   namaPelangan = 'Budi';   // diisi belakangan
   print(namaPelangan);   
 
-  // === 5. List, Set, Map ===
+  // List, Set, Map 
 
 
   List<String> daftarBarang = ['laptop', 'ipad', 'laptop'];
