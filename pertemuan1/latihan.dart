@@ -40,7 +40,7 @@ void main() {
 
   late String namaPelangan;
 
-  namaPelangan = 'Budi';   // diisi belakangan
+  namaPelangan = 'Budi';   // diisi belakangan tes
   print(namaPelangan);   
 
   // List, Set, Map 
