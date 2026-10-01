@@ -30,7 +30,7 @@ void main() {
 
   // final vs const 
 
-  final waktuSekarang = DateTime.now(); // OK, baru diketahui saat program jalan
+  final waktuSekarang = DateTime.now();   // OK, baru diketahui saat program jalan
   const namaToko = 'Toko Leptop';         // OK, nilainya sudah pasti
 
   print(waktuSekarang);
